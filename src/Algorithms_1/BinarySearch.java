@@ -29,38 +29,11 @@ public class BinarySearch {
     public int search(int[] nums, int target) {
         return search_helper(nums,target,0);
     }
-    public int firstBadVersion(int n) {
-        long mid = n>>1;
-        long start =0 ;
-        long end = n;
 
-        while (start!=end){
-            if(isBadVersion((int)mid)&&!isBadVersion((int)mid-1)){
-                return (int)mid;
-            }
-            if(!isBadVersion((int)mid)&&isBadVersion((int)mid+1)) {
-                return (int)mid+1;
-            }
-            if(isBadVersion((int)mid)&&isBadVersion((int)mid-1)){
-                end = mid;
-                mid = (start+end)>>1;
-            }
-            if(!isBadVersion((int)mid)&&!isBadVersion((int)mid+1)){
-                start = mid;
-                mid = (start+end)>>1;
-            }
-        }
-        return -1;
-
-    }
-    Boolean isBadVersion(long num){
-        return num>=1702766719;
-    }
 
     public static void main(String[] args){
         BinarySearch BS = new BinarySearch();
-        System.out.println(BS.firstBadVersion(
-                2126753390));
+      System.out.println(BS.search(new int[]{1,2,4,6},5));
 
     }
 }
