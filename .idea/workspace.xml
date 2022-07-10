@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b941085f-f598-45fc-b0ad-a2db3c62c98f" name="Changes" comment="reverse_words">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms_1/reverseWords.java" afterDir="false" />
+    <list default="true" id="b941085f-f598-45fc-b0ad-a2db3c62c98f" name="Changes" comment="reverse string">
+      <change afterPath="$PROJECT_DIR$/src/Algorithms_1/twoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +117,7 @@
       <workItem from="1657230683802" duration="3230000" />
       <workItem from="1657313441441" duration="2727000" />
       <workItem from="1657316179822" duration="1539000" />
-      <workItem from="1657467787314" duration="1992000" />
+      <workItem from="1657467787314" duration="2979000" />
     </task>
     <task id="LOCAL-00001" summary="Binary search">
       <created>1657233096406</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657468311803</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="reverse string">
+      <created>1657471629981</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657471629981</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +190,8 @@
     <MESSAGE value="Find Bad Version" />
     <MESSAGE value="FindInsert" />
     <MESSAGE value="reverse_words" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse_words" />
+    <MESSAGE value="reverse string" />
+    <option name="LAST_COMMIT_MESSAGE" value="reverse string" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
