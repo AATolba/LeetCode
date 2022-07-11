@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b941085f-f598-45fc-b0ad-a2db3c62c98f" name="Changes" comment="reverse string">
-      <change afterPath="$PROJECT_DIR$/src/Algorithms_1/twoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Algorithms_1/moveZeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,14 +36,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.reverseWords">
-    <configuration name="Algorithms_1.BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Algorithms_1.BinarySearch" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.moveZeros">
     <configuration name="BadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms_1.BadVersion" />
       <module name="LeetCode" />
@@ -83,6 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="moveZeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Algorithms_1.moveZeros" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Algorithms_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="reverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithms_1.reverseWords" />
       <module name="LeetCode" />
@@ -98,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.moveZeros" />
         <item itemvalue="Application.reverseWords" />
         <item itemvalue="Application.RotateArray" />
         <item itemvalue="Application.FindTarget" />
         <item itemvalue="Application.BadVersion" />
-        <item itemvalue="Application.Algorithms_1.BinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -118,6 +124,7 @@
       <workItem from="1657313441441" duration="2727000" />
       <workItem from="1657316179822" duration="1539000" />
       <workItem from="1657467787314" duration="2979000" />
+      <workItem from="1657552135852" duration="757000" />
     </task>
     <task id="LOCAL-00001" summary="Binary search">
       <created>1657233096406</created>
